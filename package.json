@@ -1,0 +1,29 @@
+{
+	"name": "twitter-diminished",
+	"displayName": "Twitter diminished",
+	"version": "0.0.1",
+	"description": "diminished twitter",
+	"author": "tbistr99@gmail.com",
+	"scripts": {
+		"dev": "plasmo dev",
+		"build": "plasmo build",
+		"package": "plasmo package",
+		"lint": "biome check --fix ."
+	},
+	"dependencies": {
+		"plasmo": "0.90.3",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/chrome": "0.0.258",
+		"@types/node": "20.11.5",
+		"@types/react": "18.2.48",
+		"@types/react-dom": "18.2.18",
+		"typescript": "5.3.3"
+	},
+	"manifest": {
+		"host_permissions": ["https://*/*"]
+	}
+}
